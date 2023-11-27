@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blue flies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body class="bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <div class="collapse navbar-collapse bg-primary" id="navbar">
+        <a class="navbar-brand" href="#navbar">
+          <img src="./images/logo.png" width="40" height="40" alt="" />
+        </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#offertaDellaSettimana"
+              >Offerta della settimana</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Last Minute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="offertaDellaSettimana">
+        <p>OFFERTA DELLA SETTIMANA</p>
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            flex-shrink: 2;
+          "
+          ;
+        >
+          <div
+            class="card p-3 m-3 col-lg-3 col-md-4 col-sm-6"
+            style="width: 18rem; display: flex"
+          >
+            <img
+              class="card-img-top"
+              src="./images/venezia.jpg"
+              alt="Card image cap"
+              width="286"
+              height="160"
+            />
+            <div class="card-body">
+              <p class="card-text">Venezia a partire da 300€</p>
+            </div>
+          </div>
+          <div
+            class="card p-3 m-3 col-lg-3 col-md-4 col-sm-6"
+            style="width: 18rem; display: flex; flex-wrap: wrap"
+          >
+            <img
+              class="card-img-top"
+              src="./images/torino.jpg"
+              alt="Card image cap"
+              width="286"
+              height="160"
+            />
+            <div class="card-body">
+              <p class="card-text">Torino a partire da 300€</p>
+            </div>
+          </div>
+          <div
+            class="card p-3 m-3 col-lg-3 col-md-4 col-sm-6"
+            style="width: 18rem; display: flex; flex-wrap: wrap"
+          >
+            <img
+              class="card-img-top"
+              src="./images/milano.jpg"
+              alt="Card image cap"
+              width="286"
+              height="160"
+            />
+            <div class="card-body">
+              <p class="card-text">Milano a partire da 300€</p>
+            </div>
+          </div>
+          <div
+            class="card p-3 m-3 col-lg-3 col-md-4 col-sm-6"
+            style="width: 18rem; display: flex; flex-wrap: wrap"
+          >
+            <img
+              class="card-img-top"
+              src="./images/roma.jpg"
+              alt="Card image cap"
+              width="286"
+              height="160"
+            />
+            <div class="card-body">
+              <p class="card-text">Roma a partire da 300€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="welcomeSummer">
+        <p>WELCOME SUMMER</p>
+        <div class="card shadow-lg p-3 m-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./images/tokyo.jpg"
+            alt="Card image cap"
+            width="286"
+            height="160"
+          />
+          <div class="card-body">
+            <p class="card-text">Tokyo a partire da 300€</p>
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 m-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./images/dublino.jpg"
+            alt="Card image cap"
+            width="286"
+            height="160"
+          />
+          <div class="card-body">
+            <p class="card-text">Dublino a partire da 300€</p>
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 m-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./images/londra.jpg"
+            alt="Card image cap"
+            width="286"
+            height="160"
+          />
+          <div class="card-body">
+            <p class="card-text">Londra a partire da 300€</p>
+          </div>
+        </div>
+        <div class="card shadow-lg p-3 m-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./images/new york.jpg"
+            alt="Card image cap"
+            width="286"
+            height="160"
+          />
+          <div class="card-body">
+            <p class="card-text">New York a partire da 300€</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="testimonials" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <img
+                  src="http://placehold.it/1600x900"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12">
+                    <img
+                      src="http://placehold.it/1600x900"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12">
+                    <img
+                      src="http://placehold.it/1600x900"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carosello_1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carosello_1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
